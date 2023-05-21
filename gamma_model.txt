@@ -1,0 +1,53 @@
+                   Generalized Linear Model Regression Results
+=================================================================================
+Dep. Variable:     ref_interv_per_attack   No. Observations:                  518
+Model:                               GLM   Df Residuals:                      481
+Model Family:                      Gamma   Df Model:                           36
+Link Function:                       log   Scale:                         0.12572
+Method:                             IRLS   Log-Likelihood:                 966.53
+Date:                   Sun, 21 May 2023   Deviance:                       61.623
+Time:                           17:05:29   Pearson chi2:                     60.5
+No. Iterations:                       12   Pseudo R-squ. (CS):             0.1878
+Covariance Type:               nonrobust
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                       -2.1868      0.092    -23.728      0.000      -2.367      -2.006
+team[T.Bohemians]               -0.1365      0.088     -1.545      0.122      -0.310       0.037
+team[T.Hradec Králové]           0.1714      0.089      1.927      0.054      -0.003       0.346
+team[T.Jablonec]                -0.0766      0.089     -0.859      0.390      -0.252       0.098
+team[T.Mladá Boleslav]           0.1441      0.089      1.620      0.105      -0.030       0.318
+team[T.Pardubice]               -0.0943      0.089     -1.058      0.290      -0.269       0.080
+team[T.Sigma Olomouc]           -0.1029      0.088     -1.163      0.245      -0.276       0.070
+team[T.Slavia Praha]             0.0940      0.095      0.986      0.324      -0.093       0.281
+team[T.Slovan Liberec]          -0.0565      0.089     -0.634      0.526      -0.231       0.118
+team[T.Slovácko]                -0.1182      0.089     -1.335      0.182      -0.292       0.055
+team[T.Sparta Praha]             0.0209      0.095      0.219      0.826      -0.166       0.208
+team[T.Teplice]                 -0.0771      0.089     -0.866      0.386      -0.252       0.097
+team[T.Viktoria Plzeň]          -0.1504      0.088     -1.702      0.089      -0.324       0.023
+team[T.Zbrojovka Brno]          -0.2023      0.089     -2.267      0.023      -0.377      -0.027
+team[T.Zlín]                    -0.0992      0.089     -1.115      0.265      -0.274       0.075
+team[T.České Budějovice]        -0.1369      0.089     -1.537      0.124      -0.311       0.038
+team_opp[T.Bohemians]            0.0907      0.088      1.026      0.305      -0.083       0.264
+team_opp[T.Hradec Králové]       0.2080      0.089      2.339      0.019       0.034       0.382
+team_opp[T.Jablonec]             0.2304      0.089      2.582      0.010       0.056       0.405
+team_opp[T.Mladá Boleslav]       0.0827      0.089      0.930      0.353      -0.092       0.257
+team_opp[T.Pardubice]           -0.0104      0.089     -0.117      0.907      -0.185       0.164
+team_opp[T.Sigma Olomouc]        0.1099      0.088      1.242      0.214      -0.063       0.283
+team_opp[T.Slavia Praha]         0.0722      0.095      0.758      0.448      -0.115       0.259
+team_opp[T.Slovan Liberec]       0.3256      0.089      3.651      0.000       0.151       0.500
+team_opp[T.Slovácko]             0.1645      0.089      1.858      0.063      -0.009       0.338
+team_opp[T.Sparta Praha]        -0.0185      0.095     -0.194      0.846      -0.206       0.169
+team_opp[T.Teplice]             -0.0049      0.089     -0.054      0.957      -0.179       0.170
+team_opp[T.Viktoria Plzeň]      -0.1200      0.088     -1.358      0.175      -0.293       0.053
+team_opp[T.Zbrojovka Brno]       0.0233      0.089      0.261      0.794      -0.152       0.198
+team_opp[T.Zlín]                 0.2327      0.089      2.615      0.009       0.058       0.407
+team_opp[T.České Budějovice]    -0.0703      0.089     -0.789      0.430      -0.245       0.104
+hga[T.H]                        -0.0513      0.031     -1.645      0.100      -0.112       0.010
+kretinsky                        0.0404      0.042      0.963      0.336      -0.042       0.123
+kretinsky_sparta                 0.0588      0.153      0.384      0.701      -0.241       0.359
+kretinsky_sparta_opp             0.2879      0.153      1.881      0.060      -0.012       0.588
+kretinsky_slavia                -0.1425      0.154     -0.926      0.354      -0.444       0.159
+kretinsky_slavia_opp            -0.1657      0.154     -1.077      0.281      -0.467       0.136
+================================================================================================
+Rows deleted due to non-positivity: 0
